@@ -34,6 +34,9 @@ module.exports = new Confidence.Store({
                 options: {}
             },
             {
+                plugin: './plugins/swagger'
+            },
+            {
                 plugin: 'schwifty',
                 options: {
                     $filter: 'NODE_ENV',
@@ -41,11 +44,14 @@ module.exports = new Confidence.Store({
                     $base: {
                         migrateOnStart: true,
                         knex: {
-                            client: 'sqlite3',
-                            useNullAsDefault: true,     // Suggested for sqlite3
+                            client: 'pg',
                             connection: {
-                                filename: ':memory:'
-                            }
+                                host     : process.env.POSTGRES_HOST || '192.168.99.100',
+                                port     : process.env.POSTGRES_PORT || 5432 ,
+                                user     : process.env.POSTGRES_USER || 'hapi',
+                                password : process.env.POSTGRES_PASSWORD || 'hapi',
+                                database : process.env.POSTGRES_DATABASE || 'unilim'
+                           }
                         }
                     },
                     production: {
