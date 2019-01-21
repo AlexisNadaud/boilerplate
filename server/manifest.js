@@ -34,12 +34,7 @@ module.exports = new Confidence.Store({
                 options: {}
             },
             {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                plugin: './plugins/swagger'
-=======
-=======
->>>>>>> a2197cd... (flavor) objection v2.4.0
+                plugin: './plugins/swagger',
                 plugin: 'schwifty',
                 options: {
                     $filter: 'NODE_ENV',
@@ -58,10 +53,6 @@ module.exports = new Confidence.Store({
                         migrateOnStart: false
                     }
                 }
-<<<<<<< HEAD
->>>>>>> a2197cd... (flavor) objection v2.4.0
-=======
->>>>>>> a2197cd... (flavor) objection v2.4.0
             },
             {
                 plugin: {

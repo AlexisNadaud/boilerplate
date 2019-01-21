@@ -7,7 +7,11 @@
     "start": "node server",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "test": "lab -a code -I 'core,__core-js_shared__' -L",
+=======
+    "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
+>>>>>>> a2197cd... (flavor) objection v2.4.0
 =======
     "test": "lab -a code -I 'core,__core-js_shared__,regeneratorRuntime,_babelPolyfill' -L",
 >>>>>>> a2197cd... (flavor) objection v2.4.0
@@ -22,8 +26,11 @@
     "joi": "14.x.x",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "schmervice": "^1.1.0"
 =======
+=======
+>>>>>>> a2197cd... (flavor) objection v2.4.0
 =======
 >>>>>>> a2197cd... (flavor) objection v2.4.0
     "objection": "1.x.x",
@@ -32,6 +39,9 @@
   "peerDependencies": {
     "knex": "0.16.x"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a2197cd... (flavor) objection v2.4.0
+=======
 >>>>>>> a2197cd... (flavor) objection v2.4.0
 =======
 >>>>>>> a2197cd... (flavor) objection v2.4.0
@@ -47,6 +57,7 @@
     "hapi": "18.x.x",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "hapi-swagger": "9.x.x",
     "hpal-debug": "1.x.x",
     "inert": "5.x.x",
@@ -54,6 +65,8 @@
     "toys": "2.x.x",
     "vision": "5.x.x"
 =======
+=======
+>>>>>>> a2197cd... (flavor) objection v2.4.0
 =======
 >>>>>>> a2197cd... (flavor) objection v2.4.0
     "hoek": "6.x.x",
